@@ -76,10 +76,10 @@ function hotelCost(totalDays) {
       }
     }
     else if (totalDays > 0) {
-      totalLivingCost = "Days can't be fraction";
+      totalLivingCost = "Number of days can not be a fraction.";
     }
     else if (totalDays < 0){
-      totalLivingCost = "Days can't be negative";
+      totalLivingCost = "Number of days can not be negative";
     }
     else {
       totalLivingCost = "Your inputted value is not a number";
