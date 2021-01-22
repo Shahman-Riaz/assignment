@@ -1,20 +1,19 @@
 // FIRST problem START
 
 function kilometerToMeter(kilometerInput) {
-    var result;
-    var meterOutput = 1000 * kilometerInput;
+      var meterOutput;
     if(kilometerInput >= 0){
-        result = meterOutput;
+       meterOutput = 1000 * kilometerInput;
     }
     else if (kilometerInput < 0){
-        result = "Distance cannot be negative";
+        meterOutput = "Distance cannot be negative";
     }
     else {
-        result = "Your inputted value is not a number.";
+        meterOutput = "Your inputted value is not a number.";
     }
-    return result;
+    return meterOutput;
 }
-var meterValue = kilometerToMeter(23);
+var meterValue = kilometerToMeter(2);
 console.log(meterValue);
 
 
